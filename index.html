@@ -1,48 +1,77 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bootstrap demo</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PORTFOLIO</title>
+	<style>
+		.container {
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			color: #ffffff;
+		}
+		.head{
+			display: flex;
+			margin-left: 20px;
+		}
+
+		.title {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			margin-left: 100px;
+			margin-right: 100px;
+			font-size: 80px;
+		}
+.logos{
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-top: 60px;
+	margin-right: 200px;
+	
+}
+.texto{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-left: 40%;
+	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.link{
+	display: flex;
+}
+
+	</style>
 </head>
-<style>
-	.body {
-		height: 100%;
-	}
 
-	.bg-full {
-		min-height: 100%;
-	}
-</style>
+<body style="background: linear-gradient(90deg, rgb(75, 71, 77) 0%, rgb(93, 77, 109) 25%, rgb(72, 63, 86))">
 
-<body class="bg-dark text-white">
-	<div class="p-3 mb-2 bg-dark text-white justify-content-center" ;>
-		<h1 class="d-flex justify-content-center">Projeto Portfólio</h1>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-			crossorigin="anonymous"></script>
-		<div class="p-3 mb-2 bg-dark text-white d-flex justify-content-center" ;>
-			<div class="card text-bg-primary mb-3" style="max-width: 18rem;">
-				<div class="card-header"></div>
-				<div class="card-body">
-					<h2 class="card-text" style="height: 20px;">Desenvolvedora Full-stack</h2>
-				</div>
-			</div>
-			<div class="card" style="width: 18rem;">
-				<img class="mr-3" src="foto.jpg" alt="Imagem de exemplo genérica">
-				<div class="card-body">
-					<h5 class="card-title">Portfólio em processo...</h5>
-					<p class="card-text"> Para mais informações:
-						<br> rlsgabriella@gmail.com </br>
-						(88)99836-2446
-					</p>
-					<a href="https://www.linkedin.com/in/gabriella-rodrigues-5b5416199/" class="btn btn-primary">Acessar
-						Linkedin</a>
-				</div>
-			</div>
+	<div class="container">
+		<h3 class="head">OLÁ👋, ME CHAMO GABRIELLA</h3>
+		<div class="logos">
+			<a href="https://www.linkedin.com/in/gabriella-rodrigues-5b5416199/">
+			<img src="logotipo-do-linkedin.png" ; style="height: 40px;">
+			</a>
+			<a href="https://github.com/rlsgabriella">
+			<img src="git.png" ; style="height: 40px;">
+			</a>
+			<a href="Curriculo Gabriella.pdf">
+			<img src="folhas.png" ; style="height: 40px;">
+			</a>
 		</div>
+		<h1 class="title"> DEVELOPER FULL STACK</h1>
+		<div class="texto">
+		<p> Inicei na carreira de programação em junho 2024 através de um projeto 
+			promovido pelo Governo do Estado do Ceará, Geração Tech, fornecido pela instituição Digital College,
+			em parceria com os órgãos IEL e ADECE. E a partir dessa oportunidade desenvolvi habilidades
+			hardskills, e softskills, pratiquei e trabalhei com diversas tecnologias.
+		</p>
+
+	</div>
+
+
 	</div>
 </body>
 
